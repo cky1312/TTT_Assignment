@@ -1,0 +1,59 @@
+.App {
+    background: #333;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App-input>* {
+    margin: 10px;
+}
+
+.App-input p {
+    padding: 15px 5px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.App-input input {
+    min-width: 70vw;
+    padding: 15px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+.App-input button {
+    padding: 10px 50px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background: indianred;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .3s ease-in-out;
+}
+
+.App-input button:hover {
+    cursor: pointer;
+    border-bottom: 2px solid gainsboro;
+}
+
+.App-input button:active {
+    position: relative;
+    top: 2px;
+}
